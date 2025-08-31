@@ -1,0 +1,11 @@
+<app-card>
+  <form (ngSubmit)="onSubmit()">
+    <div class="fields">
+      <app-labeled-input label="Initial investiment" (inputValue)="initialInvestment.set($event)" />
+      <app-labeled-input label="Annual investiment" (inputValue)="annualInvestment.set($event)" />
+      <app-labeled-input label="Expected return" (inputValue)="expectedReturn.set($event)" />
+      <app-labeled-input label="Duration" (inputValue)="duration.set($event)" />
+    </div>
+    <button type="submit">CALCULATE</button>
+  </form>
+</app-card>

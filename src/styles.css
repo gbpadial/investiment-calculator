@@ -1,0 +1,27 @@
+body {
+  margin: auto;
+  color: white;
+  min-height: 100vh;
+  width: auto;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  background: radial-gradient(#032b20, #01100c);
+  padding: 0rem 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #03c988;
+  border: 1px solid #03c988;
+  color: white;
+  padding: 0.5rem 2rem;
+  border-radius: 4px;
+}
+
+button:hover,
+button:active {
+  background-color: #02b875;
+  border-color: #02b875;
+}

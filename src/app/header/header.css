@@ -1,0 +1,11 @@
+img {
+  height: 150px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 48px 16px 48px;
+}
